@@ -29,8 +29,8 @@ Antes de comenzar, asegúrate de tener instalados los paquetes necesarios. Puede
 1. Clonar el repositorio:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>  
-cd <NOMBRE_DEL_REPOSITORIO>  
+git clone https://github.com/santigarciamarzano/bot-QA-LLM.git
+cd bot-QA-LLM 
 ```
 2. Agregar un archivo PDF:
 
@@ -38,7 +38,7 @@ Coloca un archivo PDF que deseas procesar en el mismo directorio donde se encuen
 
 3. Ejecutar la aplicación:
 ```bash
-    python app.py  
+python app.py  
 ```
     Interacción:
     - Ingresa el nombre del archivo PDF (incluye la extensión .pdf).
@@ -52,6 +52,7 @@ Coloca un archivo PDF que deseas procesar en el mismo directorio donde se encuen
 El comportamiento del sistema puede personalizarse modificando el archivo src/config.py.
 
 **`EMBEDDING_MODEL_NAME`**: Define el modelo de embeddings (por defecto: sentence-transformers/all-MiniLM-L6-v2).
+
 **`LLM_MODEL_NAME`**: Define el modelo de lenguaje (por defecto: google/flan-t5-large).
 
 ---
