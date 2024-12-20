@@ -12,7 +12,6 @@ Estos modelos son configurables, por lo que puedes reemplazarlos por otros model
   - **`retriever.py`:** Configura el sistema de preguntas y respuestas (QA Chain).
   - **`config.py`:** Archivo de configuración del proyecto.
 - **app.py:** Archivo principal que permite interactuar con el sistema desde la terminal.
-  - **`config.py`:** Contiene la clave de API utilizada por LangChain para conectarse con modelos de OpenAI. Este archivo está excluido del repositorio mediante `.gitignore` para garantizar la seguridad.
 - **main.ipynb:** Notebook para correr las funciones por bloque.  
 
 ---
